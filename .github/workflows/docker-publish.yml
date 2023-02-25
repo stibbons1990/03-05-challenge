@@ -102,6 +102,6 @@ jobs:
     steps:
       - name: Pull and run Docker image
         id: pull-and-run
-        run: docker run ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
+        run: docker run ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main | grep -q container && echo "TEST PASSED"
 
 
