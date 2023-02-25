@@ -1,8 +1,8 @@
 BUILD_NAME       ?= simple
 BUILD_TAG        ?= $(shell git rev-parse --short HEAD)
 
-GITHUB_USER_NAME ?= PUT_YOUR_USER_NAME_HERE
-GITHUB_REPO_NAME ?= PUT_YOUR_REPO_NAME_HERE
+GITHUB_USER_NAME ?= stibbons1990
+GITHUB_REPO_NAME ?= 03-05-challenge
 GITHUB_TAG       ?= main
 
 build:
